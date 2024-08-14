@@ -134,7 +134,7 @@ switches.](pictures/inside-pic.jpeg "The assembled controller's insides")
 ## Support
 
 If you want to support this project you can [buy me
-a coffee](ko-fi.com/merlindesigns).
+a coffee](https://ko-fi.com/merlindesigns).
 
 ## License
 
