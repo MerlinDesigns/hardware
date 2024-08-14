@@ -25,6 +25,10 @@ sideways arcade buttons with an additional button on the top. The right buttons 
 shaped like sideways WASD](pictures/outside-pic-bottom.jpg "The business end of
 the Em")
 
+You hold it like this:
+![Picture of the em being held in two hands](pictures/holding.jpg "Holding the
+Em")
+
 ## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
 around on the couch while also having the benefits of a leverless controller.
