@@ -87,7 +87,7 @@ from each other. Everything is printed in purple PLA. There is a raspberry pi
 pico on the inside. A lot of green cables connected to the pico via soldering.
 The green cables connect to the hot swap sockets for the switches. A couple of
 black cables daisy chain the ground connection between the
-switches.](pictures/inside-pic.jpeg "The assembled controllers insides")
+switches.](pictures/inside-pic.jpeg "The assembled controller's insides")
 
 ## Planned changes
 * improve README (more info, pictures, build information, installation)
