@@ -29,6 +29,13 @@ You hold it like this:
 ![Picture of the em being held in two hands](pictures/holding.jpg "Holding the
 Em")
 
+I recorded some videos to make it more clear how its used starting with
+a top/front view:
+[![Video showing how the Em is used, shot from the front. It shows someone holding the controller and Street Fighter 6 in the background. The player does a simple combo with Blanka in training mode.](https://img.youtube.com/vi/O2gVw8NUOoU/0.jpg)](https://youtu.be/O2gVw8NUOoU)
+
+And here is a video from the bottom/back doing the same combo:
+[![Video showing how the Em is used, shot from the bottom. Only the controller and two hands wrapping around it are visible. The fingers wiggle around between the different buttons while the player does a simple combo in street fighter 6](https://img.youtube.com/vi/_HlK434uRhY/0.jpg)](https://youtu.be/_HlK434uRhY)
+
 ## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
 around on the couch while also having the benefits of a leverless controller.
