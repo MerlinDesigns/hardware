@@ -46,31 +46,49 @@ equipment and skill is required.
 
 ### What you'll need
 1x printed top shell
+
 1x printed bottom shell
+
 1x printed top support plate
+
 1x printed bottom support plate
+
 15x printed modular button caps 4.75mm high (based on [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps)
+
 15x printed button cap stems (from [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps)
+
 2x printed menu button top
+
 2x printed menu button bottom
+
 1x Raspberry Pi Pico
+
 12x m2 heat set inserts (I use Ruthex) (you can use more)
+
 4x 22mm m2 screws
+
 3x 14mm m2 screws
+
 3x 8mm m2 screws
+
 2x 6mm m2 screws
+
 2x m2 nuts
+
 15x Kailh Choc v1 switches (I use
 5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
   and 10x
   [Twilight](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1?number=KC10221_TWI)
   but any others like pink or reds will work)
+
 4x Kailh Silent switch for mice (or similarly sized substitutions)
+
 1x 0,96 inch OLED SSD1306
+
 a bunch of wire to connect everything (I use AWG 26 stranded wire but other
   wire will work the same)
 
