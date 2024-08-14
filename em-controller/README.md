@@ -22,10 +22,10 @@ controller. From the handles it angles topwards. On that surface, there are
 eleven black buttons. From this perspective there are seven buttons on the left
 and four buttons on the right. The left buttons are clustered similar to
 sideways arcade buttons with an additional button on the top. The right buttons are 
-shaped like sideways WASD](pictures/outside-pic-bottom.png "The business end of
+shaped like sideways WASD](pictures/outside-pic-bottom.jpg "The business end of
 the Em")
 
-## Why this Form Factor?
+## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
 around on the couch while also having the benefits of a leverless controller.
  Like a flatbox without having to have the controller on the lap. While you
@@ -35,7 +35,8 @@ control of directional input.
 
 ## How can I get my own?
 
-**Note:** I'm still working on refining the details of version 1.0
+**Note:** I'm still working on refining the details of version 1.0. Some
+aspects might not be completely final
 
 This repository contains all information you need to print and assemble your
 own.
@@ -86,9 +87,9 @@ from each other. Everything is printed in purple PLA. There is a raspberry pi
 pico on the inside. A lot of green cables connected to the pico via soldering.
 The green cables connect to the hot swap sockets for the switches. A couple of
 black cables daisy chain the ground connection between the
-switches.](pictures/inside-pic.png "The assembled controllers insides")
+switches.](pictures/inside-pic.jpeg "The assembled controllers insides")
 
-## Near-future anticipated changes:
+## Planned changes
 * improve README (more info, pictures, build information, installation)
 * make a proper logo and add it to the top shell
 * add OLED-free variant
@@ -99,7 +100,7 @@ switches.](pictures/inside-pic.png "The assembled controllers insides")
 * PCB version
 * RGB LEDs 
 * Wireless?
-* maybe analog sticks?
+* Analog sticks?
 
 ## License
 
