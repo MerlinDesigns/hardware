@@ -1,6 +1,6 @@
 # Em
 The "Em" Controller is a hand-held all-button game controller. It's based around
-a raspberry pi pico and running the amazing
+a Raspberry Pi Pico and running the amazing
 [GP2040-CE](https://gp2040-ce.info/) firmware.
 
 ![Picture of the Em from the top. It has two buttons on the top
@@ -9,7 +9,6 @@ and four smaller menu buttons in a cluster on the bottom middle. It is roughly
 shaped like an M and is 3D printed in a purple color with black buttons.
 A micro USB cable is connected to the controller on the back in the
 middle.](pictures/outside-pic-top.jpg "The Em")
-
 
 The idea is that most of the buttons are on the bottom side of the controller
 and you can press them with your different fingers. The design aims to let you
@@ -45,7 +44,6 @@ not all, dpads and wanted to be able to not miss the benefits of more detailed
 control of directional input.
 
 ## How can I get my own?
-
 **Note:** I'm still working on refining the details of version 1.0. Some
 aspects might not be completely final
 
@@ -56,52 +54,33 @@ The current version of this controller is handwired, so some soldering
 equipment and skill is required.
 
 ### What you'll need
-1x printed top shell
-
-1x printed bottom shell
-
-1x printed top support plate
-
-1x printed bottom support plate
-
-15x printed modular button caps 4.75mm high (based on [Stokken's great Kailh
+- 1x printed top shell
+- 1x printed bottom shell
+- 1x printed top support plate
+- 1x printed bottom support plate
+- 15x printed modular button caps 4.75mm high (based on [Stokken's great Kailh
   Choc V1 button
-  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps)
-
-15x printed button cap stems (from [Stokken's great Kailh
+  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
+- 15x printed button cap stems (from [Stokken's great Kailh
   Choc V1 button
-  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps)
-
-2x printed menu button top
-
-2x printed menu button bottom
-
-1x Raspberry Pi Pico
-
-12x m2 heat set inserts (I use Ruthex) (you can use more)
-
-4x 22mm m2 screws
-
-3x 14mm m2 screws
-
-3x 8mm m2 screws
-
-2x 6mm m2 screws
-
-2x m2 nuts
-
-15x Kailh Choc v1 switches (I use
-5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
+  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
+- 2x printed menu button top
+- 2x printed menu button bottom
+- 1x Raspberry Pi Pico
+- 12x m2 heat set inserts (I use Ruthex) (you can use more)
+- 4x 22mm m2 screws
+- 3x 14mm m2 screws
+- 3x 8mm m2 screws
+- 2x 6mm m2 screws
+- 2x m2 nuts
+- 15x Kailh Choc v1 switches (I use
+  5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
   and 10x
   [Twilight](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1?number=KC10221_TWI)
   but any others like pink or reds will work)
-
-4x Kailh Silent switch for mice (or similarly sized substitutions)
-
-1x 0,96 inch OLED SSD1306
-
-a bunch of wire to connect everything (I use AWG 26 stranded wire but other
-  wire will work the same)
+- 4x Kailh Silent switch for mice (or similarly sized substitutions)
+- 1x 0,96 inch OLED SSD1306
+- a bunch of wire to connect everything (I use AWG 26 stranded wire but other wire will work the same)
 
 Why "you can use more" than 12 heat set inserts? I've added more standoffs that can hold heat set
 inserts in case you want extra security. Mainly, they are there to support the
@@ -132,17 +111,13 @@ switches.](pictures/inside-pic.jpeg "The assembled controller's insides")
 * Analog sticks?
 
 ## Support
-
 If you want to support this project you can [buy me
 a coffee](https://ko-fi.com/merlindesigns).
 
 ## License
-
 This project is published under [CC BY-NC-SA
 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you want to sell
 this design, please contact me first.
 
 If you have questions, you can find me (@Merlin) in the [Open Stick Community
 Discord Server](https://discord.com/servers/openstickcommunity-1049366310389289001). 
-
-
