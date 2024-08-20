@@ -70,10 +70,10 @@ equipment and skill is required.
 - 2x printed menu button bottom
 - 1x Raspberry Pi Pico
 - 12x m2 heat set inserts (I use Ruthex) (you can use more)
-- 4x 22mm m2 screws
-- 3x 14mm m2 screws
-- 3x 8mm m2 screws
-- 2x 6mm m2 screws
+- 4x 20mm m2 screws
+- 3x 12mm m2 screws
+- 3x 6mm m2 screws
+- 2x 4mm m2 screws
 - 2x m2 nuts
 - 15x Kailh Choc v1 switches (I use
   5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
