@@ -70,11 +70,11 @@ equipment and skill is required.
 - 2x printed menu button bottom
 - 1x Raspberry Pi Pico
 - 12x m2 heat set inserts (I use Ruthex) (you can use more)
-- 4x 20mm m2 screws
+- 5x 20mm m2 screws
 - 3x 12mm m2 screws
-- 3x 6mm m2 screws
+- 5x 6mm m2 screws
 - 2x 4mm m2 screws
-- 2x m2 nuts
+- 4x m2 nuts
 - 15x Kailh Choc v1 switches (I use
   5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
   and 10x
@@ -82,10 +82,13 @@ equipment and skill is required.
   but any others like pink or reds will work)
 - 4x Kailh Silent switch for mice (or similarly sized substitutions)
 - 1x 0,96 inch OLED SSD1306
+- 1x female USB A breakout board. I got [these
+  ones](https://www.amazon.de/Keenso-Breakout-Female-Adapter-Connector/dp/B07VBRTDVF) 
 - a bunch of wire to connect everything (I use AWG 26 stranded wire but other wire will work the same)
 
+
 Why "you can use more" than 12 heat set inserts? I've added more standoffs that can hold heat set
-inserts in case you want extra security. Mainly, they are there to support the
+inserts in case you want extra safety. Mainly, they are there to support the
 support plate without screws. I've found screws weren't needed in those
 standoffs.
 
