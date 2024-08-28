@@ -60,9 +60,10 @@ equipment and skill is required.
 - 1x printed bottom shell
 - 1x printed top support plate
 - 1x printed bottom support plate
-- 15x printed modular button caps 4.75mm high (based on [Stokken's great Kailh
+- 4x printed modular button caps 4.9mm high for the top (based on [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
+- 11x printed modular button caps 5.4mm high for the bottom(also Stokken's design)
 - 15x printed button cap stems (from [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
