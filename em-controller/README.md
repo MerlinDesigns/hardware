@@ -37,6 +37,12 @@ And here is a video from the bottom/back doing the same combo:
 
 [![Video showing how the Em is used, shot from the bottom. Only the controller and two hands wrapping around it are visible. The fingers wiggle around between the different buttons while the player does a simple combo in street fighter 6](https://img.youtube.com/vi/_HlK434uRhY/0.jpg)](https://youtu.be/_HlK434uRhY)
 
+This is the button layout I am using:
+![Diagram of the top of the Em and the button
+assignments](pictures/em-controller-top-buttons.png)
+![Diagram of the bottom of the Em and the button
+assignments](pictures/em-controller-bottom-buttons.png)
+
 ## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
 around on the couch while also having the benefits of a leverless controller.
