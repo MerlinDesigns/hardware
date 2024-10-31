@@ -62,10 +62,6 @@ The current version of this controller is handwired, so some soldering
 equipment and skill is required.
 
 ### What you'll need
-- 1x printed top shell
-- 1x printed bottom shell
-- 1x printed top support plate
-- 1x printed bottom support plate
 - 4x printed modular button caps 4.9mm high for the top (based on [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
@@ -73,20 +69,33 @@ equipment and skill is required.
 - 15x printed button cap stems (from [Stokken's great Kailh
   Choc V1 button
   caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
+- 15x Kailh Choc v1 Switches (I use
+  5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
+  and 10x
+  [Twilight](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1?number=KC10221_TWI)
+  but any others like pink or reds will work)
+
+or
+
+- 4x printed button caps V2 top
+- 11x printed button caps V2 bottom
+- 15x Kailh Choc V2 switches
+
+and 
+
+- 1x printed top shell
+- 1x printed bottom shell
+- 1x printed top support plate
+- 1x printed bottom support plate
 - 2x printed menu button top
 - 2x printed menu button bottom
 - 1x Raspberry Pi Pico
-- 12x m2 heat set inserts (I use Ruthex) (you can use more)
+- 12x m2 heat set inserts (I use Ruthex) (you can use more*)
 - 5x 20mm m2 screws
 - 3x 12mm m2 screws
 - 5x 6mm m2 screws
 - 2x 4mm m2 screws
 - 4x m2 nuts
-- 15x Kailh Choc v1 switches (I use
-  5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
-  and 10x
-  [Twilight](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1?number=KC10221_TWI)
-  but any others like pink or reds will work)
 - 4x Kailh Silent switch for mice (or similarly sized substitutions)
 - 1x 0,96 inch OLED SSD1306
 - 1x female USB A breakout board. I got [these
@@ -110,11 +119,8 @@ black cables daisy chain the ground connection between the
 switches.](pictures/inside-pic.jpeg "The assembled controller's insides")
 
 ## Planned changes
-* improve README (more info, pictures, build information, installation)
-* make a proper logo and add it to the top shell
 * add OLED-free variant
 * improve printability
-* USB passthrough
 
 ## Future features
 * PCB version
