@@ -10,7 +10,7 @@ and you can press them with your various fingers. The design aims to let you
 use the same fingers for the same buttons you would use on more traditional
 leverless controllers.
 
-![Picture of the Em's bottom. It is 3D printed in red PLA. On that surface, there are
+![Picture of the Em2's bottom. It is 3D printed in red PLA. On that surface, there are
 ten white, hexagonal buttons. From this perspective there are seven buttons on the left
 and three buttons on the right. The left buttons are clustered similar to
 sideways arcade buttons with an additional button on the top. The right buttons are arranged in a staggered line](pictures/em2-bottom-view.jpg "The business end of
@@ -28,83 +28,46 @@ could just use a gamepad for this purpose, I have been unhappy with most, if
 not all, dpads and wanted to be able to not miss the benefits of more detailed
 control of directional input.
 
-<!--## How can I get my own?
-**Note:** I'm still working on refining the details of version 1.0. Some
-aspects might not be completely final
-
-This repository contains all information you need to print and assemble your
-own.
-
+## How can I get my own?
 The current version of this controller is handwired, so some soldering
-equipment and skill is required.
+equipment and skill is required. Currently, the shell and internals are 3D
+printed. A PCB version of the right-handed variant is in the works.
+
+There are a few variants to decide between when building your own controller.
+First of all, there is the decision whether you want to build the left-handed
+or right-handed version. For either, there are separate folders including
+different print files.
+
+Secondly, the shell files come in either with or without prebuilt supports. The
+prebuilt supports can help with preventing the controller from being printed
+unevenly but aren't strictly needed and might also leave some marks on the
+shell.
 
 ### What you'll need
-- 4x printed modular button caps 4.9mm high for the top (based on [Stokken's great Kailh
-  Choc V1 button
-  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
-- 11x printed modular button caps 5.4mm high for the bottom(also Stokken's design)
-- 15x printed button cap stems (from [Stokken's great Kailh
-  Choc V1 button
-  caps](https://cults3d.com/en/3d-model/gadget/kailh-choc-v1-modular-keycaps))
-- 15x Kailh Choc v1 Switches (I use
-  5x [nocturnal](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1)
-  and 10x
-  [Twilight](https://keycapsss.com/switchestester/switches/272/ambients-silent-choc-switches-lowprokb-kailh-choc-v1?number=KC10221_TWI)
-  but any others like pink or reds will work)
-
-or
-
-- 4x printed button caps V2 top
-- 11x printed button caps V2 bottom
-- 15x Kailh Choc V2 switches
-
-and 
-
 - 1x printed top shell
 - 1x printed bottom shell
-- 1x printed top support plate
-- 1x printed bottom support plate
-- 2x printed menu button top
-- 2x printed menu button bottom
-- 1x Raspberry Pi Pico
-- 12x m2 heat set inserts (I use Ruthex) (you can use more*)
-- 5x 20mm m2 screws
-- 3x 12mm m2 screws
-- 5x 6mm m2 screws
-- 2x 4mm m2 screws
-- 4x m2 nuts
+- 14x printed button caps from `buttons/hex-buttons.stl`
+- 3x printed menu buttons from `buttons/menu-button.stl`
+- 1x printed switch support plate from `pcb-replacement/switch-support-plate.stl`
+- 1x printed menu support plate from `pcb-replacement/menu-button-holder.stl`
+- 1x printed waveshare holder from `pcb-replacement/board-holder.stl`
+- 1x Waveshare RP2040-Zero (or equivalent)
+- 14x Cherry MX-style full-sized keyboard switches (I have used Cherry MX Speed
+  Silver and Akko V3 Silver Pro and I prefer the Akko ones)
 - 4x Kailh Silent switch for mice (or similarly sized substitutions)
-- 1x 0,96 inch OLED SSD1306
+- 4x m2 heat set inserts (I use Ruthex)
 - 1x female USB A breakout board. I got [these
   ones](https://www.amazon.de/Keenso-Breakout-Female-Adapter-Connector/dp/B07VBRTDVF) 
+- 6x 16mm m2 screws
+- 8x 6mm m2 screws
+- 10x m2 nuts
 - a bunch of wire to connect everything (I use AWG 26 stranded wire but other wire will work the same)
 
+![Inside picture of the Em2. Everything is printed in red matte PLA. There is
+a Waveshare RP2040-Zero on the inside. A lot of cables connected to the
+RP2040-Zero via soldering.](pictures/inside-top.jpg "The controller's insides")
 
-Why "you can use more" than 12 heat set inserts? I've added more standoffs that can hold heat set
-inserts in case you want extra safety. Mainly, they are there to support the
-support plate without screws. I've found screws weren't needed in those
-standoffs.
-
-See notes on printing the components in [the printing
-instructions](printing.md)
-
-![Inside picture of the Em with the inner support plates being disconnected
-from each other. Everything is printed in purple PLA. There is a raspberry pi
-pico on the inside. A lot of green cables connected to the pico via soldering.
-The green cables connect to the hot swap sockets for the switches. A couple of
-black cables daisy chain the ground connection between the
-switches.](pictures/inside-pic.jpeg "The assembled controller's insides")
-
-## Planned changes
-* add OLED-free variant
-* improve printability
-
-## Future features
-* PCB version
-* RGB LEDs 
-* Wireless?
-* Analog sticks?
--->
+![Picture of the Em2 switch support plate from the other side showing where the cables go on the other side.](pictures/inside-bottom.jpg "The controller's inside, flip side")
 
 ## Support
 If you want to support this project you can [buy me
