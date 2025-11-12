@@ -1,5 +1,5 @@
 # Em2
-The "Em2" controller, also nicknamed Springspinne, is a hand-held all-button game controller based on the Em controller with a focus on being more compact and easier to build. It's running the amazing [GP2040-CE](https://gp2040-ce.info/) firmware.
+The "Em2" controller, also nicknamed "Springspinne" (german for jumping spider), is a hand-held all-button game controller based on the Em controller with a focus on being more compact and easier to build. It's running the amazing [GP2040-CE](https://gp2040-ce.info/) firmware.
 
 ![Picture of the Em2 from the top. It has two buttons on the top
 left, two buttons on the top right, and three smaller menu buttons in a cluster in the middle. It is 3D printed in a red color with white hexagonal buttons.
@@ -38,10 +38,11 @@ First of all, there is the decision whether you want to build the left-handed
 or right-handed version. For either, there are separate folders including
 different print files.
 
-Secondly, the shell files come in either with or without prebuilt supports. The
+Secondly, the shell files come either with or without prebuilt supports. The
 prebuilt supports can help with preventing the controller from being printed
 unevenly but aren't strictly needed and might also leave some marks on the
 shell.
+
 
 ### What you'll need
 - 1x printed top shell
@@ -68,6 +69,37 @@ a Waveshare RP2040-Zero on the inside. A lot of cables connected to the
 RP2040-Zero via soldering.](pictures/inside-top.jpg "The controller's insides")
 
 ![Picture of the Em2 switch support plate from the other side showing where the cables go on the other side.](pictures/inside-bottom.jpg "The controller's inside, flip side")
+
+### Printing Notes
+
+The shell halves are designed to be printed standing on their "noses", which is
+why there is a flat plane on those noses. This is not the prettiest, but
+a good trade-off to get a nice print. This way the controller can be printed at
+a 45 degree angle, which should also work well with the hexagonal cutouts for
+the buttons. The inside of the shells should be on the upside when printing to
+avoid having to use a lot of supports for the different standoffs etc.
+
+Print settings for the shells should be fine with mostly defaults. My
+recommendation is to enable tree supports but only from the build plate to
+prevent supports within the nut slots. Other than that you can change infill
+settings however you like. Let me know if you encounter problems with printing
+so I can make adjustments. I tested the print in PLA and PETG.
+
+Fun fact: You can fit both shell halves on the build plate of Bambu Lab A1 mini.
+
+Print the menu buttons on their flat side edge without supports.
+
+I've had success with printing the hexagonal button caps on one of their edges
+with normal supports enabled and two raft layers. This allows the convex shape to be printed
+without problems.
+
+The switch support plate has a chamfer on one edge that I recommend to use to
+print on. Tree supports are required for this print.
+
+I usually print the menu button holder face down with normal supports. This
+will require removal of the supports with some tweezers or similar. 
+
+The waveshare board holder arm can easily be printed without supports.
 
 ## Support
 If you want to support this project you can [buy me
