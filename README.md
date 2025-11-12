@@ -2,6 +2,6 @@
 
 A repository for random hardware desings I came up with.
 
-* [Em Controller version 2](em2/README.md)
+* [Em Controller version 2](em2)
 * [Em Controller](em-controller/README.md)
 * [Mini Arcade Button](mini-arcade-controller/README.md)
