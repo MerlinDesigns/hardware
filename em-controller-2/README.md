@@ -1,5 +1,5 @@
 # Em Controller Version 2
-This smaller Em controller, also affectionately nicknamed "Springspinne" (german for jumping spider), is a hand-held all-button game controller based on the [Em controller](../em-controller) with a focus on being more compact and easier to build. It's running the amazing [GP2040-CE](https://gp2040-ce.info/) firmware.
+This smaller Em controller, also affectionately nicknamed "Springspinne" (German for jumping spider), is a hand-held all-button game controller based on the [Em controller](../em-controller) with a focus on being more compact and easier to build. It's running the amazing [GP2040-CE](https://gp2040-ce.info/) firmware.
 
 ![Picture of the Em2 from the top. It has two buttons on the top
 left, two buttons on the top right, and three smaller menu buttons in a cluster in the middle. It is 3D printed in a red color with white hexagonal buttons.
