@@ -21,9 +21,9 @@ This time around there's also a "southpaw" version of the controller:
 
 ![Picture of the Em2 in olive green with cream colored buttons, bottom side. Here, the cluster of 7 buttons is on the right side of the picture, while the line of 3 buttons is on the left.](pictures/southpaw-bottom.jpg)
 
-<!-- This is the button layout I am using: 
-![Diagram of the top of the Em and the button assignments](pictures/em-controller-top-buttons.png)
-![Diagram of the bottom of the Em and the button assignments](pictures/em-controller-bottom-buttons.png)-->
+This is the button layout I am using (you can change it however you like)
+![Diagram of the Em2 and the button assignments](pictures/springspinne_layout.png)
+
 
 ## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
