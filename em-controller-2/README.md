@@ -31,8 +31,7 @@ a top/front view:
 
 And here is a video from the bottom/back doing the same combo:
 
-[![Video showing how the Em2 is used, shot from the bottom. Only the controller and two hands wrapping around it are visible. The fingers wiggle around between the different buttons while the player does a simple combo in street fighter 6](https://img.youtube.com/vi/E2yLD4zI1v/0.jpg)](https://youtu.be/E2yLD4zI1v)
-
+[![Video showing how the Em2 is used, shot from the bottom. Only the controller and two hands wrapping around it are visible. The fingers wiggle around between the different buttons while the player does a simple combo in street fighter 6](https://img.youtube.com/vi/E2yLD4zI1v8/0.jpg)](https://youtu.be/E2yLD4zI1v8)
 
 ## Why this form factor?
 The idea is to have something more like a game pad and the ability to laze
