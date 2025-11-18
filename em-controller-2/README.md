@@ -106,7 +106,7 @@ I've had success with printing the hexagonal button caps on one of their edges
 with normal supports enabled and two raft layers. This allows the convex shape to be printed
 without problems.
 
-If the button caps come out inconsistent on your printer, you can use the flat hex buttons instead. These can just be printed face down and should come out nicely.
+If the button caps come out inconsistent on your printer, you can use the flat hex buttons instead. These can just be printed face down and should come out nicely. You should probably enable "detect thin walls" or similar in your slicer.
 
 The switch support plate has a chamfer on one edge that I recommend to use to
 print on. Tree supports are required for this print.
