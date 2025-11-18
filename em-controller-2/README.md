@@ -60,7 +60,7 @@ shell.
 ### What you'll need
 - 1x printed top shell
 - 1x printed bottom shell
-- 14x printed button caps from `<layout-choice>/buttons/hex-buttons.stl`
+- 14x printed button caps from `<layout-choice>/buttons/hex-buttons.stl` or 14x of the printed flat button caps from `<layout-choice>/buttons/flat-hex-buttons.stl`
 - 3x printed menu buttons from `<layout-choice>/buttons/menu-button.stl`
 - 1x printed switch support plate from `<layout-choice>/pcb-replacement/switch-support-plate.stl`
 - 1x printed menu support plate from `<layout-choice>/pcb-replacement/menu-button-holder.stl`
@@ -105,6 +105,8 @@ Print the menu buttons on their flat side edge without supports.
 I've had success with printing the hexagonal button caps on one of their edges
 with normal supports enabled and two raft layers. This allows the convex shape to be printed
 without problems.
+
+If the button caps come out inconsistent on your printer, you can use the flat hex buttons instead. These can just be printed face down and should come out nicely.
 
 The switch support plate has a chamfer on one edge that I recommend to use to
 print on. Tree supports are required for this print.
