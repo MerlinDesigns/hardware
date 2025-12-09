@@ -42,9 +42,7 @@ not all, dpads and wanted to be able to not miss the benefits of more detailed
 control of directional input.
 
 ## How can I get my own?
-The current version of this controller is handwired, so some soldering
-equipment and skill is required. Currently, the shell and internals are 3D
-printed. A PCB version of the right-handed variant is in the works.
+Some soldering equipment and skill is required for both the handwired and the PCB version. The handwired variants are entirely 3D printed and then soldered with wires, the PCB version can be ordered from the PCB production service of your choice but will still require some soldering of components.
 
 There are a few variants to decide between when building your own controller.
 First of all, there is the decision whether you want to build the left-handed (southpaw)
@@ -56,12 +54,72 @@ prebuilt supports can help with preventing the controller from being printed
 unevenly but aren't strictly needed and might also leave some marks on the
 shell.
 
+Whether you pick the PCB or the handwired version, the files are the same but for the fact that you don't need the PCB-replacement files for the real PCB version and the menu buttons are a different size for PCB and handwired version.
+### What you'll need for the PCB version
+- 1x printed top shell
+- 1x printed bottom shell
+- 14x printed button caps from `right-handed/buttons/hex-buttons.stl` or 14x of the printed flat button caps from `right-handed/buttons/flat-hex-buttons.stl`
+- 3x printed menu buttons from `right-handed/buttons/menu-button-pcb.stl`
+- 1x printed bottom switch support from `right-handed/pcb-files/switchfence.stl`
+- 1x printed top switch support from `right-handed/pcb-files/switchfence-top.stl` 
+- 1x PCB (see below on how to order this)
+- 1x Waveshare RP2040-Zero (or equivalent)
+- 14x Cherry MX-style full-sized keyboard switches (I have used Cherry MX Speed
+  Silver and Akko V3 Silver Pro and I prefer the Akko ones)
+- 4x 6mm x 6mm x 8mm push buttons or similar
+- 1x female USB A port
+- 6x 16mm m2 screws
+- 4x 6mm m2 screws
+- 10x m2 nuts
 
-### What you'll need
+![top view of the assembled PCB](pictures/pcb-top-view.jpeg)
+
+![bottom view of the assembled PCB](pictures/pcb-bottom-view.jpeg)
+
+When assembling, you need to make sure that the legs of the 6mm x 6mm buttons that overlap with the keyboard switches are snipped off, so that they don't keep the keyboard switches from sitting flush. Two legs being soldered on are enough to provide the functionality and the stability you need. 
+
+When soldering the Waveshare board to the PCB, try to make sure it is soldered on straight and evenly spaced on both sides. Otherwise, the USB plug won't sit correctly in the controller case. You can try soldering on the board using just one of the pins and then check the fit with the case if you are in doubt. For fit checks, it's recommended to also screw the board into the top shell piece to make sure the alignment is correct.
+
+#### How to Order the PCBs
+1. Go to JLCPCB.com
+2. Click on "Order now"
+3. Click on "Add gerber file" and choose "gerber-springspinne.zip"
+4. Use the default options (see reference at the end of these instructions), except those mentioned here:
+    - PCB Color: choose your color, we would recommend purple
+    - Surface Finish: HASL, we would recommend LeadFree
+    - Confirm Production file: Yes
+5. Click "SAVE TO CART"
+
+Please bear in mind: Do this at your own risk. It is your own responsibility to do the ordering process. We are not responsible for any mistakes in this instruction, as the actual ordering process might change at any time.
+<details><summary>Click to see default options for reference</summary>
+
+    PCB: 
+    - Base Material: FR-4
+    - Layers: 2
+    - Dimensions: do not touch
+    - PCB Qty: 5 is minimum
+    - Product Type: Industrial/Consumer electronics
+    - Different Design: 1
+    - Delivery Format: Single PCB
+    - PCB Thickness: 1.6mm
+    - Silkscreen: White
+    - Outer Copper Weight: 1oz
+    - Via Covering: Tented
+    - Min via hole size/diameter 0.3mm
+    - Board Outline Tolerance: +/-0.2mm
+    - Mark on PCB: Remove Mark
+    - Electrical Test: Flying Probe Fully Test
+    - Gold Fingers. No
+    - Castellated Holes: No
+    - Edge Plating: No
+</details>
+
+
+### What you'll need for the handwired version
 - 1x printed top shell
 - 1x printed bottom shell
 - 14x printed button caps from `<layout-choice>/buttons/hex-buttons.stl` or 14x of the printed flat button caps from `<layout-choice>/buttons/flat-hex-buttons.stl`
-- 3x printed menu buttons from `<layout-choice>/buttons/menu-button.stl`
+- 3x printed menu buttons from `<layout-choice>/buttons/menu-button-handwired.stl`
 - 1x printed switch support plate from `<layout-choice>/pcb-replacement/switch-support-plate.stl`
 - 1x printed menu support plate from `<layout-choice>/pcb-replacement/menu-button-holder.stl`
 - 1x printed waveshare holder from `<layout-choice>/pcb-replacement/board-holder.stl`
