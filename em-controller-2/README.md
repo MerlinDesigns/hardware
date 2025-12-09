@@ -190,4 +190,4 @@ This project is published under [CC BY-NC-SA
 this design, please contact me first.
 
 If you have questions, you can find me (@Merlin) in the [Open Stick Community
-Discord Server](https://discord.com/servers/openstickcommunity-1049366310389289001). 
+Discord Server](https://discord.com/servers/openstickcommunity-1049366310389289001). Or @merlindesigns.bsky.social on Bluesky.
